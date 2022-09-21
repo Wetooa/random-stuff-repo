@@ -22,3 +22,4 @@ while keyboard.is_pressed('q') == False:
         click(770, 420)
     if pyautogui.pixel(850, 400)[0] == 0: 
         click(850, 420)
+        

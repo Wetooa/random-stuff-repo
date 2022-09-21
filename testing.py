@@ -1,3 +1,2 @@
-a = [1, 2, 3]
-a[4] += 1
-print(a)
+n = ["aad", "daa", "ada", "addda"]
+print(any(x == x[::-1] for x in n))
